@@ -30,9 +30,14 @@
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <form action="friends.html" method="GET" id="login-form">
+      <input
+        required
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input required name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <a href="#">Find Kokoa Account or Password</a>
     </form>
@@ -57,3 +62,9 @@
 <!-- Reset CSS file makes all or most marign, padding, border 0 as default : this is a good practice to implement in future projects -->
 
 <!-- Devide & Conquer -->
+<!-- Devide Component CSS and Screens CSS and import them to the main Style CSS. -->
+<!-- In the main Style CSS, styles that effect all screens such as font-family or background-color should come -->
+
+<!-- form action="{{html}}" will set to which page you will send the data on submit -->
+
+<!-- form method="GET or POST" : POST sends data to the server on the backend. GET adds data to the URL as query -->
