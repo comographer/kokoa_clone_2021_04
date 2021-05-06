@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- add style.css to html -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- set met charset / always UTF-8 -->
     <meta charset="UTF-8" />
+    <!-- set viewport / content="width=device-width" -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- give page title that shows up on browser head -->
     <title>Welcome | Kokoa Clone</title>
   </head>
   <body>
+    <!-- status-bar section -->
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -22,6 +27,7 @@
       </div>
     </div>
 
+    <!-- header section -->
     <header class="welcome-header">
       <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
       <p class="welcome-header__text">
@@ -30,7 +36,10 @@
       </p>
     </header>
 
+    <!-- login form section -->
+    <!-- form action method="GET" makes submit form link to assigned page -->
     <form action="friends.html" method="GET" id="login-form">
+      <!-- required attribute forces user to make input to proceed -->
       <input
         required
         name="username"
@@ -38,14 +47,18 @@
         placeholder="Email or phone number"
       />
       <input required name="password" type="password" placeholder="Password" />
+      <!-- for type="submit", value is like placeholder -->
       <input type="submit" value="Log In" />
+      <!-- a href="#" is null link. it doesn't do anything -->
       <a href="#">Find Kokoa Account or Password</a>
     </form>
 
+    <!-- in case user browser size is too big, below will display -->
     <div id="no-mobile">
       <span>Your Screen is too big</span>
     </div>
 
+    <!-- js script to add fontawesome icons -->
     <script
       src="https://kit.fontawesome.com/fce1d2c775.js"
       crossorigin="anonymous"
