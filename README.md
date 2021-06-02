@@ -31,8 +31,8 @@
 
 ## Screenshots
 
-![Example screenshot_1](/screenshots/2.JPG)
-![Example screenshot_2](/screenshots/3.JPG)
+![Example screenshot_1](/screenshots/2.jpg)
+![Example screenshot_2](/screenshots/3.jpg)
 
 ## Project Status
 
