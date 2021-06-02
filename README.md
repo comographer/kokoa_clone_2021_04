@@ -31,7 +31,7 @@
 
 ## Screenshots
 
-![Example screenshot](#)
+![Example screenshot]()
 
 <!-- To be updated -->
 
